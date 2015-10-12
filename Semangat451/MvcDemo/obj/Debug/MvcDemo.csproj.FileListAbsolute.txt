@@ -1,0 +1,718 @@
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\csc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\vbc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\MvcDemo.dll.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Antlr3.Runtime.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Newtonsoft.Json.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Helpers.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Mvc.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Optimization.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.WebPages.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\WebGrease.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Helpers.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Mvc.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Optimization.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.WebPages.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Antlr3.Runtime.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Newtonsoft.Json.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\System.Data.SqlServerCe.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\csc.exe
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\vbc.exe
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\MvcDemo.dll.config
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\MvcDemo.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\MvcDemo.pdb
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Antlr3.Runtime.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\EntityFramework.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Newtonsoft.Json.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Owin.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Data.SqlServerCe.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Helpers.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Mvc.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Optimization.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Razor.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.WebPages.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\WebGrease.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Helpers.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Mvc.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Optimization.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.Razor.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.WebPages.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Antlr3.Runtime.pdb
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Newtonsoft.Json.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\EntityFramework.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
+C:\Users\AbrahamWK\Desktop\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo\MvcDemo\bin\WebMatrix.Data.dll
+D:\MvcDemo\MvcDemo\bin\roslyn\csc.exe
+D:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MvcDemo\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+D:\MvcDemo\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+D:\MvcDemo\MvcDemo\bin\roslyn\vbc.exe
+D:\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe
+D:\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+D:\MvcDemo\MvcDemo\bin\MvcDemo.dll.config
+D:\MvcDemo\MvcDemo\bin\MvcDemo.dll
+D:\MvcDemo\MvcDemo\bin\MvcDemo.pdb
+D:\MvcDemo\MvcDemo\bin\Antlr3.Runtime.dll
+D:\MvcDemo\MvcDemo\bin\EntityFramework.dll
+D:\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\MvcDemo\MvcDemo\bin\Newtonsoft.Json.dll
+D:\MvcDemo\MvcDemo\bin\Owin.dll
+D:\MvcDemo\MvcDemo\bin\System.Web.Helpers.dll
+D:\MvcDemo\MvcDemo\bin\System.Web.Mvc.dll
+D:\MvcDemo\MvcDemo\bin\System.Web.Optimization.dll
+D:\MvcDemo\MvcDemo\bin\System.Web.Razor.dll
+D:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+D:\MvcDemo\MvcDemo\bin\System.Web.WebPages.dll
+D:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.dll
+D:\MvcDemo\MvcDemo\bin\WebGrease.dll
+D:\MvcDemo\MvcDemo\bin\WebMatrix.Data.dll
+D:\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MvcDemo\MvcDemo\bin\System.Web.Helpers.xml
+D:\MvcDemo\MvcDemo\bin\System.Web.Mvc.xml
+D:\MvcDemo\MvcDemo\bin\System.Web.Optimization.xml
+D:\MvcDemo\MvcDemo\bin\System.Web.Razor.xml
+D:\MvcDemo\MvcDemo\bin\System.Web.WebPages.xml
+D:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+D:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.xml
+D:\MvcDemo\MvcDemo\bin\Antlr3.Runtime.pdb
+D:\MvcDemo\MvcDemo\bin\Newtonsoft.Json.xml
+D:\MvcDemo\MvcDemo\bin\EntityFramework.xml
+D:\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+D:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
+D:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb
+H:\MvcDemo\MvcDemo\bin\roslyn\csc.exe
+H:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\MvcDemo\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+H:\MvcDemo\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+H:\MvcDemo\MvcDemo\bin\roslyn\vbc.exe
+H:\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe
+H:\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+H:\MvcDemo\MvcDemo\bin\MvcDemo.dll.config
+H:\MvcDemo\MvcDemo\bin\MvcDemo.dll
+H:\MvcDemo\MvcDemo\bin\MvcDemo.pdb
+H:\MvcDemo\MvcDemo\bin\Antlr3.Runtime.dll
+H:\MvcDemo\MvcDemo\bin\EntityFramework.dll
+H:\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+H:\MvcDemo\MvcDemo\bin\Newtonsoft.Json.dll
+H:\MvcDemo\MvcDemo\bin\Owin.dll
+H:\MvcDemo\MvcDemo\bin\System.Web.Helpers.dll
+H:\MvcDemo\MvcDemo\bin\System.Web.Mvc.dll
+H:\MvcDemo\MvcDemo\bin\System.Web.Optimization.dll
+H:\MvcDemo\MvcDemo\bin\System.Web.Razor.dll
+H:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+H:\MvcDemo\MvcDemo\bin\System.Web.WebPages.dll
+H:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.dll
+H:\MvcDemo\MvcDemo\bin\WebGrease.dll
+H:\MvcDemo\MvcDemo\bin\WebMatrix.Data.dll
+H:\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\MvcDemo\MvcDemo\bin\System.Web.Helpers.xml
+H:\MvcDemo\MvcDemo\bin\System.Web.Mvc.xml
+H:\MvcDemo\MvcDemo\bin\System.Web.Optimization.xml
+H:\MvcDemo\MvcDemo\bin\System.Web.Razor.xml
+H:\MvcDemo\MvcDemo\bin\System.Web.WebPages.xml
+H:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+H:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.xml
+H:\MvcDemo\MvcDemo\bin\Antlr3.Runtime.pdb
+H:\MvcDemo\MvcDemo\bin\Newtonsoft.Json.xml
+H:\MvcDemo\MvcDemo\bin\EntityFramework.xml
+H:\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+H:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+H:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
+H:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb
+G:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+G:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
+G:\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb
+G:\MvcDemo\MvcDemo\bin\roslyn\csc.exe
+G:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\MvcDemo\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\MvcDemo\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+G:\MvcDemo\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+G:\MvcDemo\MvcDemo\bin\roslyn\vbc.exe
+G:\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe
+G:\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+G:\MvcDemo\MvcDemo\bin\MvcDemo.dll.config
+G:\MvcDemo\MvcDemo\bin\MvcDemo.dll
+G:\MvcDemo\MvcDemo\bin\MvcDemo.pdb
+G:\MvcDemo\MvcDemo\bin\Antlr3.Runtime.dll
+G:\MvcDemo\MvcDemo\bin\EntityFramework.dll
+G:\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+G:\MvcDemo\MvcDemo\bin\Newtonsoft.Json.dll
+G:\MvcDemo\MvcDemo\bin\Owin.dll
+G:\MvcDemo\MvcDemo\bin\System.Web.Helpers.dll
+G:\MvcDemo\MvcDemo\bin\System.Web.Mvc.dll
+G:\MvcDemo\MvcDemo\bin\System.Web.Optimization.dll
+G:\MvcDemo\MvcDemo\bin\System.Web.Razor.dll
+G:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+G:\MvcDemo\MvcDemo\bin\System.Web.WebPages.dll
+G:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.dll
+G:\MvcDemo\MvcDemo\bin\WebGrease.dll
+G:\MvcDemo\MvcDemo\bin\WebMatrix.Data.dll
+G:\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\MvcDemo\MvcDemo\bin\System.Web.Helpers.xml
+G:\MvcDemo\MvcDemo\bin\System.Web.Mvc.xml
+G:\MvcDemo\MvcDemo\bin\System.Web.Optimization.xml
+G:\MvcDemo\MvcDemo\bin\System.Web.Razor.xml
+G:\MvcDemo\MvcDemo\bin\System.Web.WebPages.xml
+G:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+G:\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.xml
+G:\MvcDemo\MvcDemo\bin\Antlr3.Runtime.pdb
+G:\MvcDemo\MvcDemo\bin\Newtonsoft.Json.xml
+G:\MvcDemo\MvcDemo\bin\EntityFramework.xml
+G:\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+G:\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\csc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\vbc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\MvcDemo.dll.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Antlr3.Runtime.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Newtonsoft.Json.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Helpers.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Mvc.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Optimization.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.WebPages.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\WebGrease.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\WebMatrix.Data.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Helpers.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Mvc.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Optimization.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.WebPages.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Antlr3.Runtime.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Newtonsoft.Json.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\obj\Debug\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\AkuYakinPastiBerhasil\KitaBisaKalauKitaMau\MvcDemo\MvcDemo\obj\Debug\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\csc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\vbc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\MvcDemo.dll.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Antlr3.Runtime.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Newtonsoft.Json.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Data.SqlServerCe.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Helpers.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Mvc.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Optimization.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.WebPages.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\WebGrease.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\WebMatrix.Data.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Helpers.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Mvc.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Optimization.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.WebPages.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Antlr3.Runtime.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Newtonsoft.Json.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\obj\Debug\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\MvcDemo_Backup_4_Okt_2015\MvcDemo\obj\Debug\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\csc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\vbc.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\MvcDemo.dll.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Antlr3.Runtime.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\EntityFramework.SqlServer.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Newtonsoft.Json.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Owin.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Helpers.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Mvc.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Optimization.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.WebPages.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\WebGrease.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\WebMatrix.Data.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Helpers.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Mvc.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Optimization.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.WebPages.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Antlr3.Runtime.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Newtonsoft.Json.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\EntityFramework.SqlServer.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\obj\Debug\MvcDemo.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\obj\Debug\MvcDemo.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Net.Http.Extensions.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Net.Http.Primitives.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Net.Http.Extensions.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Net.Http.Primitives.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\obj\Debug\MvcDemo.csproj.App.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\Semangat451\MvcDemo\bin\System.Data.SqlServerCe.dll
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\csc.exe
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\vbc.exe
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\VBCSCompiler.exe
+G:\New folder\Semangat451\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+G:\New folder\Semangat451\MvcDemo\bin\MvcDemo.dll.config
+G:\New folder\Semangat451\MvcDemo\bin\MvcDemo.dll
+G:\New folder\Semangat451\MvcDemo\bin\MvcDemo.pdb
+G:\New folder\Semangat451\MvcDemo\bin\Antlr3.Runtime.dll
+G:\New folder\Semangat451\MvcDemo\bin\EntityFramework.dll
+G:\New folder\Semangat451\MvcDemo\bin\EntityFramework.SqlServer.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+G:\New folder\Semangat451\MvcDemo\bin\Newtonsoft.Json.dll
+G:\New folder\Semangat451\MvcDemo\bin\Owin.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Extensions.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Primitives.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Helpers.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Mvc.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Optimization.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Razor.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.dll
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Razor.dll
+G:\New folder\Semangat451\MvcDemo\bin\WebGrease.dll
+G:\New folder\Semangat451\MvcDemo\bin\WebMatrix.Data.dll
+G:\New folder\Semangat451\MvcDemo\bin\Antlr3.Runtime.pdb
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\New folder\Semangat451\MvcDemo\bin\Newtonsoft.Json.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Extensions.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Primitives.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Helpers.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Mvc.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Optimization.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.Razor.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+G:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Razor.xml
+G:\New folder\Semangat451\MvcDemo\bin\EntityFramework.xml
+G:\New folder\Semangat451\MvcDemo\bin\EntityFramework.SqlServer.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+G:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.csproj.App.config
+G:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+G:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.dll
+G:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.pdb
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\csc.exe
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\System.Collections.Immutable.dll
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\System.Reflection.Metadata.dll
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\vbc.exe
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\VBCSCompiler.exe
+E:\New folder\Semangat451\MvcDemo\bin\roslyn\VBCSCompiler.exe.config
+E:\New folder\Semangat451\MvcDemo\bin\MvcDemo.dll.config
+E:\New folder\Semangat451\MvcDemo\bin\MvcDemo.dll
+E:\New folder\Semangat451\MvcDemo\bin\MvcDemo.pdb
+E:\New folder\Semangat451\MvcDemo\bin\Antlr3.Runtime.dll
+E:\New folder\Semangat451\MvcDemo\bin\EntityFramework.dll
+E:\New folder\Semangat451\MvcDemo\bin\EntityFramework.SqlServer.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Core.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Cookies.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Facebook.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Google.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.OAuth.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Twitter.dll
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Web.Infrastructure.dll
+E:\New folder\Semangat451\MvcDemo\bin\Newtonsoft.Json.dll
+E:\New folder\Semangat451\MvcDemo\bin\Owin.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Extensions.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Primitives.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Helpers.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Mvc.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Optimization.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Razor.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Deployment.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.dll
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Razor.dll
+E:\New folder\Semangat451\MvcDemo\bin\WebGrease.dll
+E:\New folder\Semangat451\MvcDemo\bin\WebMatrix.Data.dll
+E:\New folder\Semangat451\MvcDemo\bin\Antlr3.Runtime.pdb
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\New folder\Semangat451\MvcDemo\bin\Newtonsoft.Json.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Extensions.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Net.Http.Primitives.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Helpers.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Mvc.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Optimization.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.Razor.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Deployment.xml
+E:\New folder\Semangat451\MvcDemo\bin\System.Web.WebPages.Razor.xml
+E:\New folder\Semangat451\MvcDemo\bin\EntityFramework.xml
+E:\New folder\Semangat451\MvcDemo\bin\EntityFramework.SqlServer.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Core.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Facebook.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Cookies.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.OAuth.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Google.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.Twitter.xml
+E:\New folder\Semangat451\MvcDemo\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.csproj.App.config
+E:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.csprojResolveAssemblyReference.cache
+E:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.dll
+E:\New folder\Semangat451\MvcDemo\obj\Debug\MvcDemo.pdb

@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "CekASPXtoHTML";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CekASPXtoHTML</h2>
+
+<html>
+<head>
+    <title>Dor</title>
+    <script type="text/javascript" src="~/fusioncharts/fusioncharts.js"></script>
+    <script type="text/javascript" src="~/fusioncharts/themes/fusioncharts.theme.fint.js"></script>
+
+    <script>
+ FusionCharts.ready(function(){
+     var revenueChart = new FusionCharts({
+         "type": "stackedcolumn2dline",
+         "renderAt": "chartContainer",
+         "width": "1024",
+         "height": "720",
+         "dataFormat": "xmlurl",
+         "dataSource":  "../DataProvider.aspx" });
+     revenueChart.render();}) </script>
+
+    <script>
+ FusionCharts.ready(function(){
+     var revenueChart2 = new FusionCharts({
+         "type": "column3d",
+         "renderAt": "chartContainer2",
+         "width": "500",
+         "height": "300",
+         "dataFormat": "jsonurl",
+         "dataSource":  "../Data/Data.JSON" });
+     revenueChart2.render();}) </script>
+
+</head>
+<body>
+    <div id="chartContainer">FusionCharts XT will load here!</div>
+    <div id="chartContainer2">FusionCharts XT will load here!</div>
+</body>
+</html>
+

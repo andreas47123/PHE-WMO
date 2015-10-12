@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("Index", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="file" />
+    <input type="submit" value="OK" />
+
+    <p>@ViewBag.Message</p>
+
+    if (ViewData["Students"] != null)
+    {
+        foreach (var std in (List<string>)ViewData["Students"])
+        { <li>@std</li>}
+        foreach (var std in (List<string>)ViewData["Email"])
+        { <li>@std</li>}
+        foreach (var std in (List<string>)ViewData["Nope"])
+        { <li>@std</li>}
+
+    }
+
+
+}

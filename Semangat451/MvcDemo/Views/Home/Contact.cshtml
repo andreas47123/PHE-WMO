@@ -1,0 +1,576 @@
+﻿
+@{ViewBag.Title = "Well";}
+
+@{
+
+    var DB = WebMatrix.Data.Database.Open("DummyDBContext");
+    var QString = "SELECT * from Status_PHE38B";
+    var data = DB.QuerySingle(QString, UrlData[0]);
+    
+}
+
+<head>
+    <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <link href="@Url.Content("~/Content/dataTables.bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/jquery.dataTables.css")" rel="stylesheet" type="text/css" />
+    <script>
+        $(document).ready(function() {
+            $('#example').DataTable()( {
+                "columnDefs": [
+                    { "width": "50%" },
+                    { "width": "50%" },
+                     null,
+                     null,
+                     null
+                ]
+            } );
+        });
+    </script>
+</head>
+
+
+<div class="tabbable">
+    <!-- Only required for left/right tabs -->
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab1" data-toggle="tab">Oil</a></li>
+        <li><a href="#tab2" data-toggle="tab">Gas</a></li>
+        <li><a href="#tab3" data-toggle="tab">Water</a></li>
+        <li><a href="#tab4" data-toggle="tab">State</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab1">
+            <p></p>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="form-control" id="sel1">
+                        <option selected="selected" value="0">PHE38-B1</option>
+                        <option value="1">PHE38-B2</option>
+                        <option value="2">PHE38-B3</option>
+                        <option value="3">PHE38-B4</option>
+                        <option value="4">PHE38-B5</option>
+                        <option value="5">PHE38-B7</option>
+                    </select>
+                    <script>
+                        $('#sel1').change(function () {
+                            wellSelected = $(this).find("option:selected").text();
+                            optionSelected = $('#sel2').find("option:selected").text();
+                            var dateObject = "";
+                            var dateObject2 = "";
+                            if (optionSelected == "Week") {
+                                dateObject = "07/20/2015";
+                                dateObject2 = "07/26/2015";
+                            }
+                            else if (optionSelected == "Month") {
+                                dateObject = "07/1/2015";
+                                dateObject2 = "07/31/2015";
+                            }
+                            FusionCharts.ready(function () {
+                                var revenueChart = new FusionCharts({
+                                    "type": "msline",
+                                    "renderAt": "chartContainer",
+                                    "width": "1024",
+                                    "height": "720",
+                                    "dataFormat": "xmlurl",
+                                    "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Oil" + "&well=" + wellSelected
+                                });
+                                revenueChart.render();
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                    <label for="sel1">For The :</label>
+                </div>
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <select class="form-control" id="sel2">
+                            <option selected="selected" value="0">Week</option>
+                            <option value="1">Month</option>
+                            <option value="2">3 Month</option>
+                            <option value="3">Year</option>
+                        </select>
+                        <script>
+                            $('#sel2').change(function () {
+                                wellSelected = $('#sel1').find("option:selected").text();
+                                optionSelected = $('#sel2').find("option:selected").text();
+                                var dateObject = "";
+                                var dateObject2 = "";
+                                if (optionSelected == "Week") {
+                                    dateObject = "07/20/2015";
+                                    dateObject2 = "07/26/2015";
+                                }
+                                else if (optionSelected == "Month") {
+                                    dateObject = "07/1/2015";
+                                    dateObject2 = "07/31/2015";
+                                }
+                                FusionCharts.ready(function () {
+                                    var revenueChart = new FusionCharts({
+                                        "type": "msline",
+                                        "renderAt": "chartContainer",
+                                        "width": "1024",
+                                        "height": "720",
+                                        "dataFormat": "xmlurl",
+                                        "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Oil" + "&well=" + wellSelected
+                                    });
+                                    revenueChart.render();
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker" value="From :">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker2" value="To :">
+                </div>
+                <div class="col-sm-1">
+                    <button id="button1" type="button" class="btn btn-default">submit</button>
+                </div>
+                <script>
+                    $('#button1').on('click', function (e) {
+                        var dateObject = $("#datepicker").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                        var dateObject2 = $("#datepicker2").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                        FusionCharts.ready(function () {
+                            wellSelected = $("#sel1").find("option:selected").text();
+                            var revenueChart = new FusionCharts({
+                                "type": "msline",
+                                "renderAt": "chartContainer",
+                                "width": "1024",
+                                "height": "720",
+                                "dataFormat": "xmlurl",
+                                "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Oil" + "&well=" + wellSelected
+                            });
+                            revenueChart.render();
+                        });
+                    });
+                </script>
+            </div>
+
+            <p>
+                <script>
+                    wellSelected = $('#sel1').find("option:selected").text();
+                    optionSelected = $('#sel2').find("option:selected").text();
+                    var dateObject = "";
+                    var dateObject2 = "";
+                    if (optionSelected == "Week") {
+                        dateObject = "07/20/2015";
+                        dateObject2 = "07/26/2015";
+                    }
+                    else if (optionSelected == "Month") {
+                        dateObject = "07/1/2015";
+                        dateObject2 = "07/31/2015";
+                    }
+                    FusionCharts.ready(function () {
+                        var revenueChart = new FusionCharts({
+                            "type": "msline",
+                            "renderAt": "chartContainer",
+                            "width": "1024",
+                            "height": "720",
+                            "dataFormat": "xmlurl",
+                            "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Oil" + "&well=" + wellSelected
+                        });
+                        revenueChart.render();
+                    });
+                </script>
+                <div id="chartContainer">
+                    Fusion Chart
+                </div>
+            </p>
+        </div>
+        <div class="tab-pane" id="tab2">
+            <p></p>
+            <p></p>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="form-control" id="sel3">
+                        <option selected="selected" value="0">PHE38-B1</option>
+                        <option value="1">PHE38-B2</option>
+                        <option value="2">PHE38-B3</option>
+                        <option value="3">PHE38-B4</option>
+                        <option value="4">PHE38-B5</option>
+                        <option value="5">PHE38-B7</option>
+                    </select>
+                    <script>
+                        $('#sel3').change(function () {
+                            wellSelected = $(this).find("option:selected").text();
+                            optionSelected = $('#sel4').find("option:selected").text();
+                            var dateObject = "";
+                            var dateObject2 = "";
+                            if (optionSelected == "Week") {
+                                dateObject = "07/20/2015";
+                                dateObject2 = "07/26/2015";
+                            }
+                            else if (optionSelected == "Month") {
+                                dateObject = "07/1/2015";
+                                dateObject2 = "07/31/2015";
+                            }
+                            FusionCharts.ready(function () {
+                                var revenueChart = new FusionCharts({
+                                    "type": "msline",
+                                    "renderAt": "chartContainer2",
+                                    "width": "1024",
+                                    "height": "720",
+                                    "dataFormat": "xmlurl",
+                                    "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Gas" + "&well=" + wellSelected
+                                });
+                                revenueChart.render();
+                            });
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                    <label for="sel1">For The :</label>
+                </div>
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <select class="form-control" id="sel4">
+                            <option selected="selected" value="0">Week</option>
+                            <option value="1">Month</option>
+                            <option value="2">3 Month</option>
+                            <option value="3">Year</option>
+                        </select>
+                        <script>
+                            $('#sel4').change(function () {
+                                wellSelected = $('#sel3').find("option:selected").text();
+                                optionSelected = $('#sel4').find("option:selected").text();
+                                var dateObject = "";
+                                var dateObject2 = "";
+                                if (optionSelected == "Week") {
+                                    dateObject = "07/20/2015";
+                                    dateObject2 = "07/26/2015";
+                                }
+                                else if (optionSelected == "Month") {
+                                    dateObject = "07/1/2015";
+                                    dateObject2 = "07/31/2015";
+                                }
+                                FusionCharts.ready(function () {
+                                    var revenueChart = new FusionCharts({
+                                        "type": "msline",
+                                        "renderAt": "chartContainer2",
+                                        "width": "1024",
+                                        "height": "720",
+                                        "dataFormat": "xmlurl",
+                                        "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Gas" + "&well=" + wellSelected
+                                    });
+                                    revenueChart.render();
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker3" value="From :">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker4" value="To :">
+                </div>
+                <div class="col-sm-1">
+                    <button id="button2" type="button" class="btn btn-default">submit</button>
+                </div>
+                <script>
+                    $('#button2').on('click', function (e) {
+                        wellSelected = $("#sel3").find("option:selected").text();
+                        var dateObject3 = $("#datepicker3").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                        var dateObject4 = $("#datepicker4").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                        FusionCharts.ready(function () {
+                            var revenueChart3 = new FusionCharts({
+                                "type": "msline",
+                                "renderAt": "chartContainer2",
+                                "width": "1024",
+                                "height": "720",
+                                "dataFormat": "xmlurl",
+                                "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Gas" + "&well=" + wellSelected
+                            });
+                            revenueChart3.render();
+                        });
+                    });
+                </script>
+            </div>
+            <p>
+                <script>
+                    wellSelected = $('#sel3').find("option:selected").text();
+                    optionSelected = $('#sel4').find("option:selected").text();
+                    var dateObject = "";
+                    var dateObject2 = "";
+                    if (optionSelected == "Week") {
+                        dateObject = "07/20/2015";
+                        dateObject2 = "07/26/2015";
+                    }
+                    else if (optionSelected == "Month") {
+                        dateObject = "07/1/2015";
+                        dateObject2 = "07/31/2015";
+                    }
+                    FusionCharts.ready(function () {
+                        var revenueChart = new FusionCharts({
+                            "type": "msline",
+                            "renderAt": "chartContainer2",
+                            "width": "1024",
+                            "height": "720",
+                            "dataFormat": "xmlurl",
+                            "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Gas" + "&well=" + wellSelected
+                        });
+                        revenueChart.render();
+                    });
+                </script>
+                <div id="chartContainer2"></div>
+            </p>
+        </div>
+        <div class="tab-pane" id="tab3">
+            <p></p>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="form-control" id="sel5">
+                        <option selected="selected" value="0">PHE38-B1</option>
+                        <option value="1">PHE38-B2</option>
+                        <option value="2">PHE38-B3</option>
+                        <option value="3">PHE38-B4</option>
+                        <option value="4">PHE38-B5</option>
+                        <option value="5">PHE38-B7</option>
+                    </select>
+                    <script>
+                    $('#sel5').change(function () {
+                        wellSelected = $('#sel5').find("option:selected").text();
+                        optionSelected = $('#sel6').find("option:selected").text();
+                        var dateObject = "";
+                        var dateObject2 = "";
+                        if (optionSelected == "Week") {
+                            dateObject = "07/20/2015";
+                            dateObject2 = "07/26/2015";
+                        }
+                        else if (optionSelected == "Month") {
+                            dateObject = "07/1/2015";
+                            dateObject2 = "07/31/2015";
+                        }
+                        FusionCharts.ready(function () {
+                            var revenueChart = new FusionCharts({
+                                "type": "msline",
+                                "renderAt": "chartContainer3",
+                                "width": "1024",
+                                "height": "720",
+                                "dataFormat": "xmlurl",
+                                "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Water" + "&well=" + wellSelected
+                            });
+                            revenueChart.render();
+                        });
+                    });
+                    </script>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                    <label for="sel1">For The :</label>
+                </div>
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <select class="form-control" id="sel6">
+                            <option selected="selected" value="0">Week</option>
+                            <option value="1">Month</option>
+                            <option value="2">3 Month</option>
+                            <option value="3">Year</option>
+                        </select>
+                        <script>
+                        $('#sel6').change(function () {
+                            wellSelected = $('#sel5').find("option:selected").text();
+                            optionSelected = $('#sel6').find("option:selected").text();
+                            var dateObject = "";
+                            var dateObject2 = "";
+                            if (optionSelected == "Week") {
+                                dateObject = "07/20/2015";
+                                dateObject2 = "07/26/2015";
+                            }
+                            else if (optionSelected == "Month") {
+                                dateObject = "07/1/2015";
+                                dateObject2 = "07/31/2015";
+                            }
+                            FusionCharts.ready(function () {
+                                var revenueChart = new FusionCharts({
+                                    "type": "msline",
+                                    "renderAt": "chartContainer3",
+                                    "width": "1024",
+                                    "height": "720",
+                                    "dataFormat": "xmlurl",
+                                    "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Water" + "&well=" + wellSelected
+                                });
+                                revenueChart.render();
+                            });
+                        });
+                        </script>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker5" value="From :">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker6" value="To :">
+                </div>
+                <div class="col-sm-1">
+                    <button id="button3" type="button" class="btn btn-default">submit</button>
+                </div>
+                <script>
+                    $('#button3').on('click', function (e) {
+                        wellSelected = $("#sel5").find("option:selected").text();
+                        var dateObject5 = $("#datepicker5").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                        var dateObject6 = $("#datepicker6").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                        FusionCharts.ready(function () {
+                            var revenueChart5 = new FusionCharts({
+                                "type": "msline",
+                                "renderAt": "chartContainer3",
+                                "width": "1024",
+                                "height": "720",
+                                "dataFormat": "xmlurl",
+                                "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Water" + "&well=" + wellSelected
+                            });
+                            revenueChart5.render();
+                        });
+                    });
+                </script>
+            </div>
+            <p>
+                <script>
+                    wellSelected = $('#sel5').find("option:selected").text();
+                    optionSelected = $('#sel6').find("option:selected").text();
+                    var dateObject = "";
+                    var dateObject2 = "";
+                    if (optionSelected == "Week") {
+                        dateObject = "07/20/2015";
+                        dateObject2 = "07/26/2015";
+                    }
+                    else if (optionSelected == "Month") {
+                        dateObject = "07/1/2015";
+                        dateObject2 = "07/31/2015";
+                    }
+                    FusionCharts.ready(function () {
+                        var revenueChart = new FusionCharts({
+                            "type": "msline",
+                            "renderAt": "chartContainer3",
+                            "width": "1024",
+                            "height": "720",
+                            "dataFormat": "xmlurl",
+                            "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Water" + "&well=" + wellSelected
+                        });
+                        revenueChart.render();
+                    });
+                </script>
+                <div id="chartContainer3">
+
+                </div>
+            </p>
+        </div>
+        <div class="tab-pane" id="tab4">
+            <p></p>
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="form-control" id="sel5">
+                        <option selected="selected" value="0">PHE38-B1</option>
+                        <option value="1">PHE38-B2</option>
+                        <option value="2">PHE38-B3</option>
+                        <option value="3">PHE38-B4</option>
+                        <option value="4">PHE38-B5</option>
+                        <option value="5">PHE38-B7</option>
+                    </select>
+                    <script>
+                        $('#sel5').change(function () {
+                            wellSelected = $(this).find("option:selected").text();
+                            /* FusionCharts.ready(function () {
+                                 var revenueChart2 = new FusionCharts({
+                                     "type": "msline",
+                                     "renderAt": "chartContainer3",
+                                     "width": "1024",
+                                     "height": "720",
+                                     "dataFormat": "xmlurl",
+                                     "dataSource": "../DataProviderField.aspx?tab=Water" + "&well=" + wellSelected
+                                 });
+                                 revenueChart2.render();*/
+                        })
+
+                    </script>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1">
+                    <label for="sel1">For The :</label>
+                </div>
+                <div class="col-sm-2">
+                    <div class="form-group">
+                        <select class="form-control" id="sel6">
+                            <option selected="selected" value="0">Day</option>
+                            <option value="1">Week</option>
+                            <option value="2">Month</option>
+                            <option value="3">Year</option>
+                        </select>
+                        <script>
+                            $('#sel6').change(function () {
+                                optionSelected = $('#sel6').find("option:selected").text();
+
+                            });
+                        </script>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker5" value="From :">
+                </div>
+                <div class="col-sm-2">
+                    <input type="text" id="datepicker6" value="To :">
+                </div>
+                <div class="col-sm-1">
+                    <button id="button3" type="button" class="btn btn-default">submit</button>
+                </div>
+                <script>
+                    $(function () {
+                        $("#button3").on('click', function (e) {
+                            wellSelected = $("#sel5").find("option:selected").text();
+                            var dateObject5 = $("#datepicker5").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                            var dateObject6 = $("#datepicker6").datepicker({ dateFormat: 'dd,MM,yyyy' }).val();
+                            /*FusionCharts.ready(function () {
+                                var revenueChart5 = new FusionCharts({
+                                    "type": "msline",
+                                    "renderAt": "chartContainer3",
+                                    "width": "1024",
+                                    "height": "720",
+                                    "dataFormat": "xmlurl",
+                                    "dataSource": "../DataProviderField.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Water" + "&well=" + wellSelected
+                                });
+                                revenueChart5.render();
+                            });*/
+                        });
+                    });
+                </script>
+            </div>
+            <p>
+                <div class="col-md-10">
+                    <table id="example" class="display" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                @foreach (var item in DB.QuerySingle(QString, UrlData[0]).GetDynamicMemberNames())
+                                {
+                                    <td>@item </td>
+
+                                }
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var row in DB.Query(QString))
+                            { 
+                                <tr>
+                                    @foreach (string count in DB.QuerySingle(QString).Columns)
+                                    {
+                                    <td>@row[count]</td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <script>
+
+                    </script>
+                </div>
+            </div>
+        </p>
+    </div>
+    </div>
+</div>

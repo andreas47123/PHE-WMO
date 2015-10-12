@@ -1,0 +1,395 @@
+﻿
+@{
+    ViewBag.Title = "Morning News";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-5">
+        <div id="chartContainer">
+
+        </div>
+        <p></p>
+        <div id="chartContainer2">
+
+        </div>
+        <script>
+            dateObject = "7/31/2015";
+            dateObject2 = "7/31/2015";
+            FusionCharts.ready(function () {
+                var revenueChart = new FusionCharts({
+                    "type": "column2d",
+                    "renderAt": "chartContainer",
+                    "width": "473",
+                    "height": "250",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderTarget.aspx?tab=Oil"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                var revenueChart = new FusionCharts({
+                    "type": "stackedcolumn2dline",
+                    "renderAt": "chartContainer2",
+                    "width": "473",
+                    "height": "250",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderReal.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=gas_to_orf&satuan=Gas"
+                });
+                revenueChart.render();
+            });
+        </script>
+    </div>
+    <div class="col-lg-2">
+        table
+    </div>
+    <leaflet id="map" style="width: 473px; height: 250px" class="col-lg-5"></leaflet>
+    <script type="text/javascript">
+        var highlightStyle = {
+            color: '#2262CC',
+            weight: 3,
+            opacity: 0.6,
+            fillOpacity: 0.65,
+            fillColor: '#2262CC'
+        };
+        /*Gas*/
+                    
+    </script>
+
+
+</div>
+<p></p>
+
+<div class="row">
+    <div class="col-lg-5">
+        <div id="chartContainer3">
+
+        </div>
+        <p></p>
+        <div id="chartContainer4">
+
+        </div>
+        <script>
+            dateObject = "7/31/2015";
+            dateObject2 = "7/31/2015";
+            FusionCharts.ready(function () {
+                var revenueChart = new FusionCharts({
+                    "type": "column2d",
+                    "renderAt": "chartContainer3",
+                    "width": "473",
+                    "height": "250",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderTarget.aspx?tab=Gas"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                var revenueChart = new FusionCharts({
+                    "type": "stackedcolumn2dline",
+                    "renderAt": "chartContainer4",
+                    "width": "473",
+                    "height": "250",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderTable.aspx?from=" + dateObject + "&to=" + dateObject2 + "&tab=Gas"
+                });
+                revenueChart.render();
+            });
+        </script>
+    </div>
+    <div class="col-lg-2">
+        table
+    </div>
+    <leaflet id="map2" style="width: 473px; height: 250px" class="col-lg-5"></leaflet>
+
+    <script>
+        var highlightStyle = {
+                color: '#2262CC',
+                weight: 3,
+                opacity: 0.6,
+                fillOpacity: 0.65,
+                fillColor: '#2262CC'
+            };
+            var size11 = 2.3 * 50;
+            var size22 = 4.1 * 50;
+            var size33 = 1.9 * 50;
+            var size44 = 16.6 * 50;
+            var size55 = 31.8 * 50;
+            var size66 = 17.7 * 50;
+            var size77 = 10.1 * 50;
+            var size88 = 7.9 * 50;
+            /*Oil*/
+            var size1 = 40.31 / 5;
+            var size2 = 1419.76 / 5;
+            var size3 = 0;
+            var size4 = 1890.24 / 5;
+            var size5 = 8286.34 / 5;
+            var size6 = 707.39 / 5;
+            var size7 = 468.44 / 5;
+            var size8 = 489.12 / 5;
+            var lat = -6.800511;
+            var long = 112.905011;
+
+            var map = L.map('map').setView([lat, long], 11);
+
+            L.tileLayer(
+                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: 'ABW, AY, AWK',
+                    minZoom: 1,
+                    maxZoom: 12,
+                }).addTo(map);
+            var circle = L.circle([-6.845678, 112.941831], size1, {
+                win_url: '../Home/Index',
+                color: 'green',
+                fillColor: 'green',
+                fillOpacity: 0.5
+            });
+            circle.addTo(map);
+            circle.on('click', onClick);
+            circle.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 23').openPopup();
+            });
+            var circle2 = L.circle([-6.845678, 112.941831], size2, {
+                win_url: '../Home/Index',
+                color: 'green',
+                fillColor: 'green',
+                fillOpacity: 0.5
+            });
+            var circle3 = L.circle([-6.790950, 112.828805], size3, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle4 = L.circle([-6.773378, 112.848630], size4, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle5 = L.circle([-6.781287, 112.860996], size5, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle6 = L.circle([-6.757774, 112.869821], size6, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle7 = L.circle([-6.826540, 112.827720], size7, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle8 = L.circle([-6.741287, 112.860996], size8, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            circle2.addTo(map);
+            circle2.on('click', onClick);
+            circle2.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 30').openPopup();
+            });
+            circle3.addTo(map);
+            circle3.on('click', onClick);
+            circle3.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 32').openPopup();
+            });
+            circle4.addTo(map);
+            circle4.on('click', onClick);
+            circle4.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 38').openPopup();
+            });
+            circle5.addTo(map);
+            circle5.on('click', onClick);
+            circle5.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 38B').openPopup();
+            });
+            circle6.addTo(map);
+            circle6.on('click', onClick);
+            circle6.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 39').openPopup();
+            });
+            circle7.addTo(map);
+            circle7.on('click', onClick);
+            circle7.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 40').openPopup();
+            });
+            circle8.addTo(map);
+            circle8.on('click', onClick);
+            circle8.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 54').openPopup();
+            });
+                        
+
+            var map2 = L.map('map2').setView([lat, long], 11);
+
+            L.tileLayer(
+                'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: 'ABW, AY, AWK',
+                    minZoom: 1,
+                    maxZoom: 12,
+                }).addTo(map2);
+            var circle21 = L.circle([-6.845678, 112.941831], size11, {
+                win_url: '../Home/Index',
+                color: 'green',
+                fillColor: 'green',
+                fillOpacity: 0.5
+            });
+            circle21.addTo(map2);
+            circle21.on('click', onClick);
+            circle21.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 23').openPopup();
+            });
+            var circle22 = L.circle([-6.845678, 112.941831], size22, {
+                win_url: '../Home/Index',
+                color: 'green',
+                fillColor: 'green',
+                fillOpacity: 0.5
+            });
+            var circle23 = L.circle([-6.790950, 112.828805], size33, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle24 = L.circle([-6.773378, 112.848630], size44, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle25 = L.circle([-6.781287, 112.860996], size55, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle26 = L.circle([-6.757774, 112.869821], size66, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle27 = L.circle([-6.826540, 112.827720], size77, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            var circle28 = L.circle([-6.741287, 112.860996], size88, {
+                win_url: '../Home/Index',
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.5
+            });
+            circle22.addTo(map2);
+            circle22.on('click', onClick);
+            circle22.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 30').openPopup();
+            });
+            circle23.addTo(map2);
+            circle23.on('click', onClick);
+            circle23.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 32').openPopup();
+            });
+            circle24.addTo(map2);
+            circle24.on('click', onClick);
+            circle24.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 38').openPopup();
+            });
+            circle25.addTo(map2);
+            circle25.on('click', onClick);
+            circle25.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 38B').openPopup();
+            });
+            circle26.addTo(map2);
+            circle26.on('click', onClick);
+            circle26.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 39').openPopup();
+            });
+            circle27.addTo(map2);
+            circle27.on('click', onClick);
+            circle27.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 40').openPopup();
+            });
+            circle28.addTo(map2);
+            circle28.on('click', onClick);
+            circle28.on('mouseover', function (evt) {
+                evt.target.bindPopup('PHE 54').openPopup();
+            });
+            function onClick(e) {
+                window.open(this.options.win_url);
+            }
+    </script>
+
+
+</div>
+<p></p>
+
+<div id="grid"></div>
+<script>
+    $("#grid").kendoGrid({
+        columns: [
+        {
+            field: "Activity",
+            width: 150
+        },
+        {
+            field: "Description",
+            width: 250
+        },
+        {
+            title: "Starting Date",
+            columns: [
+                {
+                    field: "ActualStart",
+                    title: "Actual",
+                    width: 100
+                },
+                { 
+                    field: "PlannedStart",
+                    title: "Planned",
+                    width: 100
+                }
+            ]
+        },
+        {
+            title: "Completion Date",
+            columns: [
+                {
+                    field: "ActualComp",
+                    title: "Actual",
+                    width: 100
+                },
+                {
+                    field: "PlannedComp",
+                    title: "Planned",
+                    width: 100
+                }
+            ]
+        },
+        {
+            field: "Progress",
+            width: 80
+        },
+        {
+            field: "PIC",
+            width: 80
+        },
+        {
+            field: "Remarks",
+            width: 140
+        }
+        ],
+        editable: true,
+        dataSource: [{ Activity: "Command Center Pertamina PHE WMO", Description: "Building Integration System Data, presents information that can be gathered from available data", ActualStart: "17/09/2015", PlannedStart: "18/09/2015", ActualComp: "18/09/2015", PlannedComp: "18/09/2015", Progress: "45%", PIC: "Ryzky", Remarks: "The First Progress Meeting will be held in Pertamina at 7 Oct 2015" }]
+    });
+</script>
+        
+</div>

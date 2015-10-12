@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/font-awesome.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/style.css")" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-1.7.min.js")"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2015.3.930/styles/kendo.common.min.css">
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2015.3.930/styles/kendo.rtl.min.css">
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2015.3.930/styles/kendo.default.min.css">
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2015.3.930/styles/kendo.dataviz.min.css">
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2015.3.930/styles/kendo.dataviz.default.min.css">
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2015.3.930/styles/kendo.mobile.all.min.css">
+
+    <script src="http://kendo.cdn.telerik.com/2015.3.930/js/kendo.all.min.js"></script>
+    <style>
+        #map {
+            height: 100%;
+        }
+        #map2 {
+            height: 100%;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#datepicker").datepicker()
+        });
+        $(function() {
+            $("#datepicker2").datepicker();
+        });
+        $(function () {
+            $("#datepicker3").datepicker()
+        });
+        $(function () {
+            $("#datepicker4").datepicker()
+        });
+        $(function () {
+            $("#datepicker5").datepicker()
+        });
+        $(function () {
+            $("#datepicker6").datepicker()
+        });
+    </script>
+    <script type="text/javascript" src="~/fusioncharts/fusioncharts.js"></script>
+    <script type="text/javascript" src="~/fusioncharts/themes/fusioncharts.theme.fint.js"></script>
+</head>
+
+<body>
+    
+
+    <!-- LOGO HEADER END-->
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="/home/index">
+                        <img src="/img/phewmo.png" />
+                    </a>
+                </div>
+                <div class="col-lg-8">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li>@Html.ActionLink("Total", "About", "Home")</li>
+                            <li>@Html.ActionLink("Management Dashboard", "ManagementDashboard", "Home")</li>
+                            <li>@Html.ActionLink("Morning News", "MorningNews", "Home")</li>
+                            <li>@Html.ActionLink("Field", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Well", "Contact", "Home")</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="page-head-line">@ViewBag.Title</h3>
+
+                </div>
+
+            </div>
+
+            <section id="main">
+                @RenderBody()
+            </section>
+
+            <!-- CONTENT-WRAPPER SECTION END-->
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            &copy; 2015 Pertamina PHE WMO
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+</body>
+</html>
