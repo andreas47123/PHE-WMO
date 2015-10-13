@@ -206,8 +206,13 @@
       <DependentUpon>DataProvider.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="DataProviderBar.aspx.cs">
+      <DependentUpon>DataProviderBar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="DataProviderField.aspx.cs">
       <DependentUpon>DataProviderField.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DataProviderReal.aspx.cs">
       <DependentUpon>DataProviderReal.aspx</DependentUpon>
@@ -297,6 +302,7 @@
     <Content Include="Content\themes\base\tabs.css" />
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="DataProviderBar.aspx" />
     <Content Include="DataProviderField.aspx" />
     <Content Include="DataProviderReal.aspx" />
     <Content Include="DataProviderTable.aspx" />

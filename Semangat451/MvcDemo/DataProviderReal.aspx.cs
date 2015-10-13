@@ -23,17 +23,17 @@ public partial class DataProviderReal : System.Web.UI.Page
         //biar gampang sih ini
         string[] f = new string[50];
 
-        //string dateFrom = Request.QueryString["from"];
-        //string dateTo = Request.QueryString["to"];
-        //string nome = Request.QueryString["table"];
-        //string column = Request.QueryString["column"];
-        //string satuan = Request.QueryString["satuan"];
+        string dateFrom = Request.QueryString["from"];
+        string dateTo = Request.QueryString["to"];
+        string nome = Request.QueryString["table"];
+        string column = Request.QueryString["column"];
+        string satuan = Request.QueryString["satuan"];
 
-        string dateFrom = "";
+        /*string dateFrom = "";
         string dateTo = "";
         string nome = "Field";
         string column = "gas_to_orf";
-        string satuan = "Gas";
+        string satuan = "Gas";*/
 
         string tab = satuan;
 
@@ -101,7 +101,10 @@ public partial class DataProviderReal : System.Web.UI.Page
                 query = new SqlCommand(command2, conn);
             }
 
-            SqlDataReader rst = query.ExecuteReader();
+            string commandDate = "SELECT date FROM " + nome + " GROUP BY date";
+            Debug.WriteLine(commandDate);
+            SqlCommand query2 = new SqlCommand(commandDate, conn);
+            SqlDataReader rst = query2.ExecuteReader();
             xmlStr.AppendFormat("<categories>");
             while (rst.Read())
             {
@@ -110,24 +113,24 @@ public partial class DataProviderReal : System.Web.UI.Page
             }
             xmlStr.AppendFormat("</categories>");
 
-            int tempi = rst.FieldCount;
-            int i = 1;
-            while (i <= tempi)
-            {
-                f[i] = rst.GetName(i-1);
-                i++;
-            }
+            
             rst.Close();
-
+            int i;
             i = 0;
             double yvon = 1;
             
             SqlDataReader rst2 = query.ExecuteReader();
 
-            double[] tempTotal = new double[100];
-
+            int tempi = rst2.FieldCount;
+            int a = 1;
+            while (a <= tempi)
+            {
+                f[a] = rst2.GetName(a - 1);
+                a++;
+            }
             while (rst2.Read())
             {
+                
                 if (Convert.ToInt32(rst2[f[1]]) != i)
                 {
                     if (i != 0) { xmlStr.AppendFormat("</dataset>"); }
@@ -146,23 +149,51 @@ public partial class DataProviderReal : System.Web.UI.Page
 
                 xmlStr.AppendFormat("<set value='{0}' link='../Home/Index?field={1}' />", yvon.ToString(), f[2]);
 
-                tempTotal[i] += yvon;
-                Debug.WriteLine(i);
-                Debug.WriteLine(Convert.ToInt32(rst2[f[1]]));
-                Debug.WriteLine(tempTotal[i]);
             }
             xmlStr.AppendFormat("</dataset>");
             rst2.Close();
-            
+
+            double tempTotal = 0;
+            string commandTotal = "SELECT " + nome + ".field_id, field_name, date, " + column + " FROM Field_ID," + nome + " WHERE " + nome + ".field_id = Field_ID.field_id";
+            if ((between != "") && (between != null))
+            {
+                commandTotal += between;
+            }
+            commandTotal += " ORDER BY date, field_id";
+            Debug.WriteLine(commandTotal);
+            SqlCommand query3 = new SqlCommand(commandTotal, conn);
+            SqlDataReader rst3 = query3.ExecuteReader();
+
+
             xmlStr.AppendFormat("<dataset seriesname='{0}' renderas='{1}' showvalues='{2}' anchorRadius='7'>", "total", "line", "0");
 
-            int yvonia = 1;
-            while (tempTotal[yvonia] != 0)
+            int yvonia = 0;
+            DateTime tempdate = Convert.ToDateTime("01/01/2000");
+            while (rst3.Read())
             {
-                xmlStr.AppendFormat("<set value='{0}'/>", yvonia.ToString());
-                yvonia++;
+                if (Convert.ToDateTime(rst3[f[3]]) != tempdate)
+                {
+                    if (yvonia != 0)
+                    {
+                        xmlStr.AppendFormat("<set value='{0}'/>", tempTotal.ToString());
+                    }
+                    yvonia++;
+                    tempTotal = 0;
+                }
+                if (tab == "Gas")
+                {
+                    yvon = Convert.ToDouble(rst3[f[4]]) / 1000;
+                }
+                else
+                {
+                    yvon = Convert.ToDouble(rst3[f[4]]);
+                }
+                tempTotal += yvon;
+                Debug.WriteLine(tempTotal);
+                tempdate = Convert.ToDateTime(rst3[f[3]]);
             }
-
+            rst3.Close();
+            xmlStr.AppendFormat("<set value='{0}'/>", tempTotal.ToString());
             xmlStr.AppendFormat("</dataset>");
             
             // End the XML string
