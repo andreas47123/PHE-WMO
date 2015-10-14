@@ -29,11 +29,13 @@ public partial class DataProviderReal : System.Web.UI.Page
         string column = Request.QueryString["column"];
         string satuan = Request.QueryString["satuan"];
 
-        /*string dateFrom = "";
-        string dateTo = "";
+        /*string dateFrom = "07/01/2015";
+        string dateTo = "07/25/2015";
         string nome = "Field";
         string column = "gas_to_orf";
         string satuan = "Gas";*/
+
+        nome = "tbl_" + nome;
 
         string tab = satuan;
 
@@ -79,10 +81,10 @@ public partial class DataProviderReal : System.Web.UI.Page
             conn.Open();
             string result;
             //Buat Kategori
-            string command = "SELECT " + nome + ".field_id, field_name, date, " + column + " FROM Field_ID," + nome + " WHERE " + nome + ".field_id = Field_ID.field_id";
+            string command = "SELECT " + nome + "_Data.field_id, field_name, date, " + column + " FROM " + nome + "_ID, " + nome + "_Data WHERE " + nome + "_Data.field_id = " + nome + "_ID.field_id";
             if ((between != "") && (between != null))
             {
-                command += between;
+                command += " AND" + between;
             }
             command += " ORDER BY field_id, date";
             Debug.WriteLine(command);
@@ -91,17 +93,22 @@ public partial class DataProviderReal : System.Web.UI.Page
             if ((nome != null) && (nome != ""))
             {
                 Debug.WriteLine(nome);
-                string command2 = "SELECT " + nome + ".field_id, field_name, date, " + column + " FROM Field_ID," + nome + " WHERE " + nome + ".field_id = Field_ID.field_id";
+                string command2 = "SELECT " + nome + "_Data.field_id, field_name, date, " + column + " FROM " + nome + "_ID, " + nome + "_Data WHERE " + nome + "_Data.field_id = " + nome + "_ID.field_id";
                 if ((between != "") && (between != null))
                 {
-                    command2 += between;
+                    command2 += " AND" + between;
                 }
                 command2 += " ORDER BY field_id, date";
                 Debug.WriteLine(command2);
                 query = new SqlCommand(command2, conn);
             }
 
-            string commandDate = "SELECT date FROM " + nome + " GROUP BY date";
+            string commandDate = "SELECT date FROM " + nome + "_Data";
+            if ((between != "") && (between != null))
+            {
+                commandDate += " WHERE" + between;
+            }
+            commandDate += " GROUP BY date ORDER BY date";
             Debug.WriteLine(commandDate);
             SqlCommand query2 = new SqlCommand(commandDate, conn);
             SqlDataReader rst = query2.ExecuteReader();
@@ -138,7 +145,7 @@ public partial class DataProviderReal : System.Web.UI.Page
                     i++;
                     
                 }
-
+                Debug.WriteLine(rst2[f[4]]);
                 if (tab == "Gas")
                 {
                     yvon = Convert.ToDouble(rst2[f[4]]) / 1000;
@@ -147,17 +154,17 @@ public partial class DataProviderReal : System.Web.UI.Page
                     yvon = Convert.ToDouble(rst2[f[4]]);
                 }
 
-                xmlStr.AppendFormat("<set value='{0}' link='../Home/Index?field={1}' />", yvon.ToString(), f[2]);
+                xmlStr.AppendFormat("<set value='{0}' link='../Home/Index?field={1}' />", yvon.ToString(), rst2[f[2]].ToString().ToLower());
 
             }
             xmlStr.AppendFormat("</dataset>");
             rst2.Close();
 
             double tempTotal = 0;
-            string commandTotal = "SELECT " + nome + ".field_id, field_name, date, " + column + " FROM Field_ID," + nome + " WHERE " + nome + ".field_id = Field_ID.field_id";
+            string commandTotal = "SELECT " + nome + "_Data.field_id, field_name, date, " + column + " FROM " + nome + "_ID, " + nome + "_Data WHERE " + nome + "_Data.field_id = " + nome + "_ID.field_id";
             if ((between != "") && (between != null))
             {
-                commandTotal += between;
+                commandTotal += " AND" + between;
             }
             commandTotal += " ORDER BY date, field_id";
             Debug.WriteLine(commandTotal);

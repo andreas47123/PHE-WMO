@@ -14,20 +14,24 @@
 
         </div>
         <script>
-            dateObject = "";
-            dateObject2 = "";
+            dateObject = "07/01/2015";
+            dateObject2 = "07/31/2015";
             FusionCharts.ready(function () {
+                dateObject = "07/01/2015";
+                dateObject2 = "07/31/2015";
                 var revenueChart = new FusionCharts({
                     "type": "stackedcolumn2dline",
                     "renderAt": "chartContainer",
                     "width": "473",
                     "height": "250",
                     "dataFormat": "xmlurl",
-                    "dataSource": "../DataProviderReal.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil"
+                    "dataSource": "../DataProviderReal.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=fso_aloc&satuan=Oil"
                 });
                 revenueChart.render();
             });
             FusionCharts.ready(function () {
+                dateObject = "07/01/2015";
+                dateObject2 = "07/25/2015";
                 var revenueChart = new FusionCharts({
                     "type": "stackedcolumn2dline",
                     "renderAt": "chartContainer2",
@@ -47,14 +51,33 @@
         <div id="chartContainer3">
 
         </div>
-        <p></p>
         <div id="chartContainer4">
+
+        </div>
+        <div id="chartContainer5">
+
+        </div>
+        <div id="chartContainer6">
+
+        </div>
+        <div id="chartContainer7">
+
+        </div>
+        <div id="chartContainer8">
+
+        </div>
+        <div id="chartContainer9">
+
+        </div>
+        <div id="chartContainer10">
 
         </div>
         <script>
             dateObject = "";
             dateObject2 = "";
             FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
                 var revenueChart = new FusionCharts({
                     "type": "bar2d",
                     "renderAt": "chartContainer3",
@@ -66,6 +89,8 @@
                 revenueChart.render();
             });
             FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
                 var revenueChart = new FusionCharts({
                     "type": "bar2d",
                     "renderAt": "chartContainer4",
@@ -73,6 +98,97 @@
                     "height": "90",
                     "dataFormat": "xmlurl",
                     "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe30"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
+                var revenueChart = new FusionCharts({
+                    "type": "bar2d",
+                    "renderAt": "chartContainer5",
+                    "width": "473",
+                    "height": "90",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe32"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
+                var revenueChart = new FusionCharts({
+                    "type": "bar2d",
+                    "renderAt": "chartContainer6",
+                    "width": "473",
+                    "height": "90",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe38"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
+                var revenueChart = new FusionCharts({
+                    "type": "bar2d",
+                    "renderAt": "chartContainer7",
+                    "width": "473",
+                    "height": "90",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe38b"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
+                var revenueChart = new FusionCharts({
+                    "type": "bar2d",
+                    "renderAt": "chartContainer8",
+                    "width": "473",
+                    "height": "90",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe39"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
+                var revenueChart = new FusionCharts({
+                    "type": "bar2d",
+                    "renderAt": "chartContainer9",
+                    "width": "473",
+                    "height": "90",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe40"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
+                var revenueChart = new FusionCharts({
+                    "type": "bar2d",
+                    "renderAt": "chartContainer10",
+                    "width": "473",
+                    "height": "90",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe54"
+                });
+                revenueChart.render();
+            });
+            FusionCharts.ready(function () {
+                dateObject = "07/29/2015";
+                dateObject2 = "07/31/2015";
+                var revenueChart = new FusionCharts({
+                    "type": "bar2d",
+                    "renderAt": "chartContainer3",
+                    "width": "473",
+                    "height": "90",
+                    "dataFormat": "xmlurl",
+                    "dataSource": "../DataProviderBar.aspx?from=" + dateObject + "&to=" + dateObject2 + "&table=Field&column=ow_oil&satuan=Oil&field=phe23"
                 });
                 revenueChart.render();
             });

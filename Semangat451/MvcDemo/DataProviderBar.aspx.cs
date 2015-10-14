@@ -30,14 +30,16 @@ public partial class DataProviderBar : System.Web.UI.Page
         string satuan = Request.QueryString["satuan"];
         string field = Request.QueryString["field"];
 
-        /*string dateFrom = "";
-        string dateTo = "";
+        /*string dateFrom = "07/29/2015";
+        string dateTo = "07/31/2015";
         string nome = "Field";
         string column = "gas_to_orf";
         string satuan = "Gas";
         string field = "phe23";*/
 
         string tab = satuan;
+
+        nome = "tbl_" + nome;
 
         string between = "";
 
@@ -70,10 +72,10 @@ public partial class DataProviderBar : System.Web.UI.Page
             conn.Open();
             string result;
             //Buat Kategori
-            string command = "SELECT " + nome + ".field_id, field_name, date, " + column + " FROM Field_ID," + nome + " WHERE " + nome + ".field_id = Field_ID.field_id AND field_name = " + field;
+            string command = "SELECT " + nome + "_Data.field_id, field_name, date, " + column + " FROM " + nome + "_ID," + nome + "_Data WHERE " + nome + "_Data.field_id = " + nome + "_ID.field_id AND field_name = '" + field + "'";
             if ((between != "") && (between != null))
             {
-                command += between;
+                command += " AND" + between;
             }
             command += " ORDER BY field_id, date";
             Debug.WriteLine(command);
@@ -82,10 +84,10 @@ public partial class DataProviderBar : System.Web.UI.Page
             if ((nome != null) && (nome != ""))
             {
                 Debug.WriteLine(nome);
-                string command2 = "SELECT " + nome + ".field_id, field_name, date, " + column + " FROM Field_ID," + nome + " WHERE " + nome + ".field_id = Field_ID.field_id AND field_name = '" + field + "'";
+                string command2 = "SELECT " + nome + "_Data.field_id, field_name, date, " + column + " FROM " + nome + "_ID," + nome + "_Data WHERE " + nome + "_Data.field_id = " + nome + "_ID.field_id AND field_name = '" + field + "'";
                 if ((between != "") && (between != null))
                 {
-                    command2 += between;
+                    command2 += " AND" + between;
                 }
                 command2 += " ORDER BY field_id, date";
                 Debug.WriteLine(command2);
